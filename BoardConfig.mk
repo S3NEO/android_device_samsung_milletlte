@@ -19,12 +19,8 @@ include device/samsung/millet-common/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := millet,milletlte
 
-# Build Fingerprint
-BUILD_FINGERPRINT := samsung/milletltexx/milletlte:5.0.2/LRX22G/T335XXU1BOD8:user/release-keys
-
 # Kernel
 TARGET_KERNEL_CONFIG := lineage_milletlte_defconfig
-
 
 # Radio/RIL
 include $(COMMON_PATH)/radio/single/board.mk
